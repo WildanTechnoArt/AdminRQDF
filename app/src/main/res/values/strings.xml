@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Admin RQDF</string>
+    <string name="sign_up_now">Daftar Sekarang</string>
+    <string name="input_email">Masukan Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Lupa Password?</string>
+    <string name="btn_login">Masuk</string>
+    <string name="txt_register">Belum punya akun?</string>
+    <string name="email_password_null">Email atau Password Tidak Boleh Kosong</string>
+    <string name="email_not_valid">Email Tidak Valid</string>
+    <string name="request_error">Terjadi Kesalahan, Silakan Coba Lagi</string>
+    <string name="error_user_not_found">Email atau Password Salah</string>
+    <string name="error_wrong_password">Password yang anda masukan salah</string>
+    <string name="error_request">Terjadi kesalahan, silakan coba lagi</string>
+    <string name="ic_class_list">Kelas</string>
+    <string name="ic_teacher_list">Guru</string>
+    <string name="tv_time">Senin, 06.00 – 13.00</string>
+    <string name="tv_total_student">0 Santri</string>
+    <string name="tv_lesson">Pelajaran</string>
+    <string name="tv_teacher_name">Teacher Name</string>
+
+    <string name="tv_no_class_found">Belum Ada Kelas Yang Dibuat</string>
+    <string name="tv_level">Level 1a</string>
+    <string name="tv_not_teacher_register">Tidak ada Guru yang mendaftar</string>
+    <string name="email">Email</string>
+    <string name="btn_accept">Konfirmasi</string>
+    <string name="nomor">Nomor WA</string>
+    <string name="tv_not_teachers">Belum ada guru yang terdaftar</string>
+    <string name="success_add_teacher">Guru Berhasil Ditambahkan</string>
+    <string name="create_class">Buat Kelas</string>
+    <string name="create_new_class">Buat</string>
+    <string name="lesson_name">Mata Pelajaran</string>
+    <string name="tv_level_class">Level Kelas :</string>
+    <string name="input_date">Hari</string>
+    <string name="registered">Terdaftar</string>
+    <string name="newRegistrants">Pendaftar Baru</string>
+    <string name="add_teacher">Tambahkan Guru (+)</string>
+    <string name="request_data">...........</string>
+    <string name="input_number">Nomor Induk</string>
+    <string name="show_email">Email: %1$s</string>
+    <string name="show_phone">No. Telepon: %1$s</string>
+    <string name="show_register_number">Nomor Induk: %1$s</string>
+    <string name="btn_select">Pilih</string>
+    <string name="btn_delete">Hapus</string>
+    <string name="btn_change">Ubah</string>
+    <string name="check_profile">Lihat Profil</string>
+    <string name="admin">Admin</string>
+
+    <string-array name="levels">
+        <item>1a</item>
+        <item>1b</item>
+        <item>2a</item>
+        <item>2b</item>
+        <item>3a</item>
+        <item>3b</item>
+        <item>4a</item>
+        <item>4b</item>
+        <item>5a</item>
+        <item>5b</item>
+        <item>Kelas Pondok</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">Logout</string>
+    <string name="request_logout">Logout Berhasil</string>
+    <string name="input_time">Waktu</string>
+    <string name="btn_cancel">Batalkan</string>
+    <string name="btn_input_number">Masukan Nomor Induk</string>
+    <string name="btn_save">Simpan</string>
+    <string name="input_level">Level</string>
+    <string name="input_starttime">Mulai</string>
+    <string name="input_endtime">Selesai</string>
+    <string name="edit_class">Edit Kelas</string>
+    <string name="no_post_active">Belum Ada Postingan</string>
+    <string name="message">Pesan</string>
+    <string name="no_data">-</string>
+    <string name="view_assignment">Unduh File</string>
+</resources>

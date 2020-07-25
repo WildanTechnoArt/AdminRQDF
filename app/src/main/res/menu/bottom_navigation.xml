@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/class_list"
+        android:icon="@drawable/ic_class"
+        android:title="@string/ic_class_list"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/teacher_list"
+        android:icon="@drawable/ic_teacher_list"
+        android:title="@string/ic_teacher_list"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/logout"
+        app:showAsAction="ifRoom" />
+
+</menu>
