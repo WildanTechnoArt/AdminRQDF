@@ -76,4 +76,5 @@
     <string name="message">Pesan</string>
     <string name="no_data">-</string>
     <string name="view_assignment">Unduh File</string>
+    <string name="nothing_member">Belum ada santri yang masuk</string>
 </resources>

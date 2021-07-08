@@ -1,5 +1,6 @@
 package com.wildan.adminrqdf.adapter
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,7 +10,9 @@ import com.firebase.ui.firestore.FirestoreRecyclerOptions
 import com.google.firebase.firestore.FirebaseFirestore
 import com.wildan.adminrqdf.GlideApp
 import com.wildan.adminrqdf.R
+import com.wildan.adminrqdf.activity.ProfileUserActivity
 import com.wildan.adminrqdf.model.MemberData
+import com.wildan.adminrqdf.utils.UtilsConstant.USER_ID
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.member_item.view.*
 
@@ -51,9 +54,9 @@ class FirestoreMemberAdapter(options: FirestoreRecyclerOptions<MemberData>) :
                 }
 
             containerView.setOnClickListener {
-                //val intent = Intent(context, ProfileUserActivity::class.java)
-                //intent.putExtra(USER_ID, userId)
-                //context.startActivity(intent)
+                val intent = Intent(context, ProfileUserActivity::class.java)
+                intent.putExtra(USER_ID, userId)
+                context.startActivity(intent)
             }
         }
     }
